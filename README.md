@@ -23,3 +23,7 @@ public class UserResource {
 ```
 
 There we need to tell what it produces and consumes.# quarkus-study
+
+## ApplicationScoped
+
+This basically tells CDI to create **1 instance** of the class on the **ENTIRE LIFETIME**. This is one of the pillars that CDI (Contexts and Dependency Injection) is based on. It is used to create a bean that is shared across the entire application. It is also one of the reasons why Quarkus was developed.
